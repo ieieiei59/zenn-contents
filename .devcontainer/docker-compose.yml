@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  workspace:
+    build:
+      context: ../
+      dockerfile: ./.devcontainer/docker/workspace/Dockerfile
+    tty: true
+    volumes:
+      - ~/.ssh:/home/node/.ssh
+      - ~/.gnupg:/home/node/.gnupg
+      - ..:/home/node/workspace
+    ports:
+      - $ZENN_PREVIEW_PORT:8000

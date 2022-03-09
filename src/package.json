@@ -1,0 +1,14 @@
+{
+  "name": "zenn-contents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "zenn:preview": "zenn preview --host 0.0.0.0",
+    "zenn:add-article": "zenn new:article",
+    "zenn:add-book": "zenn new:book"
+  },
+  "dependencies": {
+    "zenn-cli": "^0.1.107"
+  }
+}

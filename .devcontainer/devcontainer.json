@@ -1,0 +1,14 @@
+{
+  "name": "zenn-contents",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/home/node/workspace",
+  "settings": {
+    "editor.tabSize": 2
+  },
+  "shutdownAction": "stopCompose",
+  "features": {
+    "git": "latest",
+    "github-cli": "latest"
+  } 
+}
